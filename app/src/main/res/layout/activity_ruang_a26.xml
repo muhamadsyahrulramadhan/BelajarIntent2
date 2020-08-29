@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_ruang_a26"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityRuang_A26">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#3cddf5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="16dp">
+        <ImageView
+            android:id="@+id/imagejudul"
+            android:layout_width="90dp"
+            android:layout_height="65dp"
+            android:src="@drawable/chair"
+            android:layout_marginLeft="15dp"
+            android:paddingTop="2dp"
+            android:paddingLeft="30dp"/>
+        <TextView
+            android:id="@+id/judul1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Lihat Ruangan"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginLeft="130dp"
+            android:paddingTop="15dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ImageView
+            android:id="@+id/imga26"
+            android:layout_width="200dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ruanga26"/>
+        <TextView
+            android:id="@+id/a26"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/imga26"
+            android:text="Ruangan A2.6"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+</LinearLayout>
